@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-16 my-8 flex justify-between items-center">
-    <Logo class="mr-32" />
-    <SearchButton class="w-full" />
-  </div>
+  <header class="flex items-center gap-32 mx-16 my-8">
+    <Logo />
+    <SearchBar class="w-full" />
+  </header>
 </template>
