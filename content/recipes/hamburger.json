@@ -1,6 +1,36 @@
 {
-    "name": "hamburger",
+    "name": "Hamburger",
     "preview": {
-        "color": "green-200"
-    }
+        "color": "#E9EDCE"
+    },
+    "ingredients": [
+        {
+            "id": "pain-burger"
+        },
+        {
+            "id": "moutarde"
+        },
+        {
+            "id": "ketchup"
+        },
+        {
+            "id": "cheddar",
+            "quantity": 2
+        },
+        {
+            "id": "rosti"
+        },
+        {
+            "id": "steack-hache"
+        },
+        {
+            "id": "poitrine"
+        },
+        {
+            "id": "cornichon"
+        },
+        {
+            "id": "oignon"
+        }
+    ]
 }

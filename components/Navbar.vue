@@ -1,47 +1,27 @@
 <template>
   <nav class="p-8">
-    <h2>
-      Découvrir
-    </h2>
+    <h2>Découvrir</h2>
     <ul>
       <li>
-        <NuxtLink to="/">
-          <font-awesome-icon icon="home" />
-          Home
-        </NuxtLink>
+        <NavLink link="/" label="Home" icon="home" />
       </li>
       <li>
-        <NuxtLink to="/">
-          <font-awesome-icon icon="search" />
-          Recherche
-        </NuxtLink>
+        <NavLink link="/search" label="Recherche" icon="search" />
       </li>
-      <li class="active">
-        <NuxtLink to="/">
-          <font-awesome-icon icon="heart" />
-          Pour vous
-        </NuxtLink>
+      <li>
+        <NavLink link="/suggestions" label="Pour vous" icon="heart" />
       </li>
     </ul>
     <h2>Bibliothèque</h2>
     <ul>
       <li>
-        <NuxtLink to="/">
-          <font-awesome-icon icon="crown" />
-          Chefs
-        </NuxtLink>
+        <NavLink link="/chiefs" label="Chefs" icon="crown" />
       </li>
       <li>
-        <NuxtLink to="/">
-          <font-awesome-icon icon="star" />
-          Favoris
-        </NuxtLink>
+        <NavLink link="/favorites" label="Favoris" icon="star" />
       </li>
       <li>
-        <NuxtLink to="/">
-          <font-awesome-icon icon="utensils" />
-          Mes recettes
-        </NuxtLink>
+        <NavLink link="/recipes" label="Mes recettes" icon="utensils" />
       </li>
     </ul>
   </nav>
@@ -49,18 +29,10 @@
 
 <style scoped>
 h2 {
-    @apply text-xl text-gray-500 opacity-50 uppercase my-4 px-8;
+  @apply text-xl text-gray-500 uppercase my-4 px-8;
 }
 
 li {
-    @apply font-medium px-6 mx-2 py-2 my-2 w-full;
-}
-
-li.active {
-    @apply bg-black text-white rounded-full;
-}
-
-li svg {
-    @apply mr-4;
+  @apply mx-2 my-2;
 }
 </style>

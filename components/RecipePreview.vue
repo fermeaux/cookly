@@ -1,7 +1,7 @@
 <template>
-  <div :class="`rounded-2xl px-16 py-8 bg-${recipe.preview.color || 'white'}`">
+  <NuxtLink class="`text-xl rounded-2xl px-16 py-8" :style="`background-color: ${recipe.preview.color || '#f5f5f5'};`" :to="`/recipes/${recipe.slug}`">
     {{ recipe.name }}
-  </div>
+  </NuxtLink>
 </template>
 
 <script lang="ts">
