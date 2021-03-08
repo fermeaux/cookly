@@ -1,3 +1,3 @@
 <template>
-  <div>Chiefs</div>
+  <section>Chiefs</section>
 </template>

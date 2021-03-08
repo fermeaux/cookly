@@ -60,7 +60,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faHeart', 'faUtensils', 'faStar', 'faCrown', 'faSearch', 'faHome']
+      solid: ['faHeart', 'faUtensils', 'faStar', 'faCrown', 'faSearch', 'faHome', 'faShoppingBasket', 'faListOl']
     }
   }
 }

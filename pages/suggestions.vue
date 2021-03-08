@@ -1,3 +1,3 @@
 <template>
-  <div>Suggestion</div>
+  <section>Suggestion</section>
 </template>
